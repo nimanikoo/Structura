@@ -1,0 +1,9 @@
+@Structura.Api_HostAddress = http://localhost:5182
+
+GET {{Structura.Api_HostAddress}}/api/Products
+Accept: application/json
+
+PUT {{Structura.Api_HostAddress}}/api/Products
+Accept: application/json
+
+###
