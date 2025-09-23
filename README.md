@@ -73,6 +73,36 @@ dotnet run --project src/Structura.Api
 4. The API will be available at `https://localhost:5182` (or `http://localhost:5182` for non-HTTPS).  
    Swagger UI is enabled in Development mode at `/swagger/index.html`.
 
+## 🐳 Docker & Running in Container
+
+You can run **Structura API** inside a Docker container with PostgreSQL or InMemory database.
+
+### 🚀 Build Docker Image
+
+From the root of the project (where `Dockerfile` is located):
+
+```bash
+docker build -t structura-api .
+````
+
+### 🏃‍♂️ Run the Container
+
+```bash
+docker run -d -p 5182:8080 -e ASPNETCORE_ENVIRONMENT=Development --name structura-api structura-api
+```
+
+* `-p 5182:8080` maps the container port 8080 to your local port 5182.
+* `-e ASPNETCORE_ENVIRONMENT=Development` ensures Swagger is enabled.
+
+### 🌐 Access Swagger UI
+
+After the container starts, open your browser:
+
+```
+http://localhost:5182/swagger/index.html
+```
+   
+
 ---
 
 ## Project Structure
