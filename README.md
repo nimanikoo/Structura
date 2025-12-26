@@ -42,7 +42,7 @@
 
 ### Prerequisites
 
-* .NET 8 SDK
+* .NET 10 SDK
 * PostgreSQL (optional for production)
 
 ### Running the Project
