@@ -1,6 +1,6 @@
 # Structura
 
-**Structura** is a sample back-end project implemented with **.NET 8**, demonstrating **Clean Architecture** principles along with **CQRS** and **MediatR** for command/query separation. It uses **Entity Framework Core** for data access and supports both **InMemory** and **PostgreSQL** databases. The project is designed to be modular, scalable, and easily reusable for future projects.
+**Structura** is a sample back-end project implemented with **.NET 10**, demonstrating **Clean Architecture** principles along with **CQRS** and **MediatR** for command/query separation. It uses **Entity Framework Core** for data access and supports both **InMemory** and **PostgreSQL** databases. The project is designed to be modular, scalable, and easily reusable for future projects.
 
 ---
 
@@ -42,7 +42,7 @@
 
 ### Prerequisites
 
-* .NET 8 SDK
+* .NET 10 SDK
 * PostgreSQL (optional for production)
 
 ### Running the Project
