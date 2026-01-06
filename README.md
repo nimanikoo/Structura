@@ -1,4 +1,7 @@
 # Structura
+[![.NET 10](https://img.shields.io/badge/.NET-10.0-blueviolet?style=for-the-badge&logo=dotnet)](https://dotnet.microsoft.com/download/dotnet/10.0)
+[![Docker](https://img.shields.io/badge/Docker-Orchestrated-blue?style=for-the-badge&logo=docker)](https://www.docker.com/)
+
 
 **Structura** is a sample back-end project implemented with **.NET 10**, demonstrating **Clean Architecture** principles along with **CQRS** and **MediatR** for command/query separation. It uses **Entity Framework Core** for data access and supports both **InMemory** and **PostgreSQL** databases. The project is designed to be modular, scalable, and easily reusable for future projects.
 
@@ -140,3 +143,6 @@ This project is designed to be reused and extended. Contributions are welcome vi
 ## License
 
 This project is licensed under the MIT License.
+
+**Created with ❤️ by [Nima Nikoo](https://github.com/nimanikoo)**
+
